@@ -1,0 +1,23 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Test repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+      "jest": "^29.7.0"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvnyuvarajg/TestRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvnyuvarajg/TestRepo/issues"
+  },
+  "homepage": "https://github.com/vvnyuvarajg/TestRepo#readme"
+}
