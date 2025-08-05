@@ -1,0 +1,12 @@
+_schema-version: "3.2"
+ID: Project1
+version: 0.0.1
+
+modules:
+  - name: APP1 # A meaningful name for your Node.js app module
+    type: nodejs        # Indicate it's a Node.js app
+    path: app1          # This points to the 'app1' directory relative to THIS mta.yaml
+    parameters:
+      buildpack: nodejs_buildpack # Ensure correct buildpack
+      memory: 200M # Adjust as needed
+      disk-quota: 400M # Adjust as needed

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello DevOps App</title>
+    <!-- Link to Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to ensure the Inter font is used and for centering content */
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure it takes full viewport height */
+            background-color: #f0f2f5; /* Light gray background */
+            margin: 0;
+            padding: 20px; /* Add some padding around the content */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
+        .container {
+            background-color: #ffffff; /* White background for the card */
+            padding: 40px;
+            border-radius: 12px; /* Rounded corners for the container */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            text-align: center;
+            max-width: 90%; /* Max width for responsiveness */
+            width: 500px; /* Fixed width for larger screens */
+        }
+        h1 {
+            color: #1a202c; /* Dark text color */
+            font-size: 3rem; /* Large font size for impact */
+            font-weight: 700; /* Bold text */
+            margin-bottom: 1rem;
+        }
+        p {
+            color: #4a5568; /* Slightly lighter text color for description */
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+        
+        .button-link {
+            display: inline-block;
+            background-color: #4CAF50; /* Green background */
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px; /* Rounded corners for the button */
+            text-decoration: none; /* Remove underline */
+            font-weight: 600;
+            transition: background-color 0.3s ease; /* Smooth transition for hover */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        .button-link:hover {
+            background-color: #a04545; /* Darker green on hover */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0); /* Slightly larger shadow on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main heading for the message -->
+        <h1 class="text-gray-900">Good Afternoon!</h1>
+        <!-- A descriptive paragraph -->
+        <p class="text-gray-700">
+            This is a simple web application demonstrating a basic "Good Afternoon" message, served locally.
+        </p>
+        
+    </div>
+</body>
+</html>

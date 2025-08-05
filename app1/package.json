@@ -1,0 +1,20 @@
+{
+    "name": "app1",
+    "version": "1.0.0",
+    "description": "A simple Good Afternoon web application with its own server.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "keywords": [
+      "Good-Afternoon",
+      "web-app",
+      "node",
+      "express"
+    ],
+    "author": "Yuvaraj",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.19.2"
+    }
+  }
