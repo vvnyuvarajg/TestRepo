@@ -7,9 +7,6 @@
       "start": "node server.js",
        "test": "jest --passWithNoTests"
     },
-    "devDependencies": {
-      "jest": "^29.x.x"    
-    },
     "keywords": [
       "Good-Afternoon",
       "web-app",
@@ -21,4 +18,4 @@
     "dependencies": {
       "express": "^4.19.2"
     }
-  }
+}
