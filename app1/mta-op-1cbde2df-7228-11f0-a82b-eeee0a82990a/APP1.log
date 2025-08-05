@@ -1,0 +1,1270 @@
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:07.226634] Added process: "web" (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:07.231820] Created app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:07.325897] Updating process: "web" (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:07.385026] Scaling process: "web" (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:17.221711] Uploading app package for app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:17.422569] Updated app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:27.364722] Creating build for app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:27.828282] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:27.863980] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:27.864038] Cell 7eab295c-fd78-413b-beff-f2d9abd94987 creating container for instance 50091aee-a6e8-49c3-a24d-3a0488b75397 (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.225292] Security group rules were updated (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.274743] Cell 7eab295c-fd78-413b-beff-f2d9abd94987 successfully created container for instance 50091aee-a6e8-49c3-a24d-3a0488b75397 (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.581602] Downloading app package... (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.637344] Downloaded app package (33.8K) (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.686380] -----> Nodejs Buildpack version 1.8.38 (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.687134] -----> Bootstrapping python (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.687145] -----> Installing python 3.11.12 (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:28.687270] Copy [/tmp/buildpacks/03e689130b2c3e18/dependencies/3f5f5c003ac7b91f9e1a85daf492f112/python_3.11.12_linux_x64_cflinuxfs4_51adfd88.tgz] (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:31.539132] -----> Installing binaries (STDOUT, STG)#
+#2025 08 05 18:15:37.254#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:31.539176] engines.node (package.json): unspecified (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:31.539185] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:31.539195] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:31.539216] -----> Installing node 22.16.0 (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:31.539270] Copy [/tmp/buildpacks/03e689130b2c3e18/dependencies/0a5b2807f2f20788823b197d52c24f05/node_22.16.0_linux_x64_cflinuxfs4_13829c62.tgz] (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.259777] Using default npm version: 10.9.2 (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.259801] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.259813] Copy [/tmp/buildpacks/03e689130b2c3e18/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.496094] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.496120] -----> Creating runtime environment (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497375] [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497390] Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497394] NODE_ENV=production (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497397] NODE_HOME=/tmp/contents88655742/deps/0/node (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497400] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497403] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497405] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497409] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497483] -----> Building dependencies (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497555] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.497562] Rebuilding any native modules (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.877998] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:33.929641] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:34.434791] up to date in 448ms (STDOUT, STG)#
+#2025 08 05 18:15:37.255#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22207#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:34.824973] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:41.692124] Exit status 0 (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:41.692216] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:41.692315] Uploading droplet... (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:41.692332] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:41.707835] Uploaded build artifacts cache (215B) (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:42.354013] Creating droplet for app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:46.413712] Uploaded droplet (54.8M) (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:46.427874] Uploading complete (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:46.977022] Cell 7eab295c-fd78-413b-beff-f2d9abd94987 stopping instance 50091aee-a6e8-49c3-a24d-3a0488b75397 (STDOUT, STG)#
+#2025 08 05 18:15:47.375#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22221#
+[PollStageAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:46.977133] Cell 7eab295c-fd78-413b-beff-f2d9abd94987 destroying container for instance 50091aee-a6e8-49c3-a24d-3a0488b75397 (STDOUT, STG)#
+#2025 08 05 18:15:57.535#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:47.465483] Updated app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a ({:droplet_guid=>"031a947b-a2a3-440a-9dc9-433220e0a7f4"}) (STDOUT, API)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:47.787739] Creating revision for app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:47.826795] Starting app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:47.997257] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 8c5a2ca0-8c1e-4d7e-5ca3-645b (STDOUT, CELL)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:48.341229] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:48.356568] Cell 7eab295c-fd78-413b-beff-f2d9abd94987 successfully destroyed container for instance 50091aee-a6e8-49c3-a24d-3a0488b75397 (STDOUT, STG)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:48.409784] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 8c5a2ca0-8c1e-4d7e-5ca3-645b (STDOUT, CELL)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:48.606910] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.086914] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.087007] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.139001] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.286101] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.597233] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.597254] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623354] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623386] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623396] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623401] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623405] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623411] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623417] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623422] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623426] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623433] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623436] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623440] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623444] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623448] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623452] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623456] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623459] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623463] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623466] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.623471] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:15:57.536#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22227#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:51.682406] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:57.649079] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 8c5a2ca0-8c1e-4d7e-5ca3-645b (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:57.649111] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 8c5a2ca0-8c1e-4d7e-5ca3-645b (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:57.649659] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:57.662684] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"8c5a2ca0-8c1e-4d7e-5ca3-645b", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1754417757631017634, "version"=>"b0e572ac-5557-460b-8c35-931344cd08a2"} (STDOUT, API)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:57.739516] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 creating container for instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:57.749708] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:58.084796] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:58.138936] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully created container for instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:58.774102] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:15:58.953845] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 8c5a2ca0-8c1e-4d7e-5ca3-645b (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.248464] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.248605] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.297758] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.448448] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.753995] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.754031] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779651] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779675] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779678] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779681] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779684] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779688] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779702] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779705] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779707] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779710] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779712] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779714] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779716] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779724] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779726] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779728] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779737] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779739] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779741] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.779743] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:07.589#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21869#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:01.838067] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.653842] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.653882] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.657073] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.670227] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"cab8d882-b2f4-409c-713c-f7fc", "index"=>0, "cell_id"=>"66bf8157-2666-4d64-b2ba-4e673aee0466", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417767638792738, "version"=>"b0e572ac-5557-460b-8c35-931344cd08a2"} (STDOUT, API)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.734797] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.741938] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.064222] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.122686] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.606292] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.997259] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.313801] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.313909] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.361481] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.507943] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.821149] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.821170] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847142] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847162] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847165] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847168] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847170] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847173] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847185] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847187] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847189] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847192] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847194] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847196] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847198] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847201] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847203] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847205] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847207] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847209] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847211] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847213] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.903592] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.648676] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.648760] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.661326] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.671457] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"7214a5c3-88d9-4c40-5f88-eeea", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417775645469569, "version"=>"b0e572ac-5557-460b-8c35-931344cd08a2"} (STDOUT, API)#
+#2025 08 05 18:16:17.600#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22243#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.732359] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:27.762#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.653842] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:27.762#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.653882] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:27.762#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.657073] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:27.762#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.670227] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"cab8d882-b2f4-409c-713c-f7fc", "index"=>0, "cell_id"=>"66bf8157-2666-4d64-b2ba-4e673aee0466", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417767638792738, "version"=>"b0e572ac-5557-460b-8c35-931344cd08a2"} (STDOUT, API)#
+#2025 08 05 18:16:27.762#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.734797] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:27.762#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:07.741938] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.064222] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.122686] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.606292] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:08.997259] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance cab8d882-b2f4-409c-713c-f7fc (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.313801] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.313909] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.361481] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.507943] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.821149] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.821170] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847142] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847162] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847165] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847168] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847170] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847173] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847185] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847187] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847189] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847192] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847194] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847196] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847198] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847201] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847203] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847205] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847207] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847209] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847211] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.847213] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:09.903592] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.648676] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.648760] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.661326] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.671457] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"7214a5c3-88d9-4c40-5f88-eeea", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417775645469569, "version"=>"b0e572ac-5557-460b-8c35-931344cd08a2"} (STDOUT, API)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:15.732359] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:16.984692] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 7214a5c3-88d9-4c40-5f88-eeea (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:18.380050] Stopping app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:18.558125] Starting app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:18.717959] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 38c32517-eee7-4547-4143-59a2 (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:19.036682] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:19.098758] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 38c32517-eee7-4547-4143-59a2 (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:19.576928] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.058251] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.058411] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.110167] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.255558] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.563701] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.563733] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589675] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589700] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589704] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589707] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589712] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589716] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589720] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589725] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589728] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589731] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589736] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589738] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589740] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589743] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589745] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589747] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589749] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589751] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589752] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.589767] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:27.763#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22251#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:22.649971] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:28.715027] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 38c32517-eee7-4547-4143-59a2 (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:28.715054] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 38c32517-eee7-4547-4143-59a2 (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:28.717378] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:28.727423] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"38c32517-eee7-4547-4143-59a2", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1754417788700584972, "version"=>"3f4a8d1c-75c0-41b6-a5ef-03011e07730b"} (STDOUT, API)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:28.797440] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 creating container for instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:28.805495] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:29.140617] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:29.185904] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully created container for instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:29.535755] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:30.100792] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 38c32517-eee7-4547-4143-59a2 (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:31.985816] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:31.985922] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.035925] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.184451] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.496697] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.496725] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524380] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524413] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524420] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524426] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524432] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524440] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524448] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524453] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524457] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524461] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524465] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524469] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524476] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524480] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524484] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524491] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524494] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524498] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524501] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.524506] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:37.697#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22258#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:32.583581] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.961238] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.961275] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.966358] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.979748] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"972f128d-abad-49f9-4750-bb44", "index"=>0, "cell_id"=>"66bf8157-2666-4d64-b2ba-4e673aee0466", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417798945627007, "version"=>"3f4a8d1c-75c0-41b6-a5ef-03011e07730b"} (STDOUT, API)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.045072] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.054880] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.435821] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.495254] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.643341] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.258107] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.335033] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.335219] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.381826] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.534363] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.839464] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.839480] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865035] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865060] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865065] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865069] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865072] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865076] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865082] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865089] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865093] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865098] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865102] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865105] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865109] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865115] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865121] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865125] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865128] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865132] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865135] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865139] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.922342] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.896903] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.896957] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.912091] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.927088] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"96ddfa3c-5d22-4759-555b-81a6", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417806893772181, "version"=>"3f4a8d1c-75c0-41b6-a5ef-03011e07730b"} (STDOUT, API)#
+#2025 08 05 18:16:47.928#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22264#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.988218] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.961238] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.961275] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.966358] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:38.979748] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"972f128d-abad-49f9-4750-bb44", "index"=>0, "cell_id"=>"66bf8157-2666-4d64-b2ba-4e673aee0466", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417798945627007, "version"=>"3f4a8d1c-75c0-41b6-a5ef-03011e07730b"} (STDOUT, API)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.045072] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.054880] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.435821] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.495254] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:39.643341] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.258107] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance 972f128d-abad-49f9-4750-bb44 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.335033] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.335219] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.381826] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.534363] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.839464] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.839480] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865035] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865060] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865065] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865069] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865072] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865076] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865082] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865089] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865093] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865098] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865102] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865105] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865109] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865115] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865121] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865125] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865128] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865132] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865135] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.865139] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:40.922342] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.896903] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.896957] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.912091] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.927088] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"96ddfa3c-5d22-4759-555b-81a6", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417806893772181, "version"=>"3f4a8d1c-75c0-41b6-a5ef-03011e07730b"} (STDOUT, API)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:46.988218] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:48.262525] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 96ddfa3c-5d22-4759-555b-81a6 (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:48.800476] Stopping app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:48.966349] Starting app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:49.257444] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance d5c816a2-daf7-4fd1-7363-c2bb (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:49.596334] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:49.644964] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance d5c816a2-daf7-4fd1-7363-c2bb (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:50.143538] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:52.654449] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:52.654654] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:52.705311] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:52.854883] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.165659] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.165680] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191723] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191742] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191747] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191750] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191752] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191755] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191758] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191760] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191762] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191764] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191769] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191771] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191772] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191777] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191778] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191780] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191782] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191784] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191786] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.191788] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:16:57.831#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22267#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:53.251739] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:58.895959] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance d5c816a2-daf7-4fd1-7363-c2bb (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:58.896008] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance d5c816a2-daf7-4fd1-7363-c2bb (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:58.900858] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:58.911054] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"d5c816a2-daf7-4fd1-7363-c2bb", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1754417818882770786, "version"=>"86d9f6b6-052b-4708-8c0e-c68e282575b3"} (STDOUT, API)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:58.990111] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:59.026506] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:59.412733] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:59.473304] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:16:59.648740] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:00.260102] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance d5c816a2-daf7-4fd1-7363-c2bb (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.081802] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.081915] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.133278] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.283336] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.593160] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.593182] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620905] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620928] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620931] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620946] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620948] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620951] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620955] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620957] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620959] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620963] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620968] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620972] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620974] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620976] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620978] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620981] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620983] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620988] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.620993] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.621007] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:07.855#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21878#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:02.679220] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:17.817#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.398663] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:17.817#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.399021] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:17.817#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.399077] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:17.817#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.409409] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"4d1f962d-1ca4-4101-6d25-44b4", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417828380358064, "version"=>"86d9f6b6-052b-4708-8c0e-c68e282575b3"} (STDOUT, API)#
+#2025 08 05 18:17:17.817#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.480353] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:17.817#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.487043] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.828328] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.880649] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.050223] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.632966] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.733132] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.733225] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.781339] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.931556] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.239175] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.239199] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264631] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264658] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264666] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264671] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264674] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264678] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264681] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264683] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264686] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264690] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264693] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264701] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264704] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264707] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264710] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264713] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264716] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264719] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264723] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264726] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.322903] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.243049] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.243116] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.255049] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.265339] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"87a1d6a1-711b-4cdd-79da-b01b", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417836239953004, "version"=>"86d9f6b6-052b-4708-8c0e-c68e282575b3"} (STDOUT, API)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.340674] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:17.818#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21887#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:17.560034] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.398663] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.399021] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.399077] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.409409] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"4d1f962d-1ca4-4101-6d25-44b4", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417828380358064, "version"=>"86d9f6b6-052b-4708-8c0e-c68e282575b3"} (STDOUT, API)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.480353] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.487043] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.828328] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:08.880649] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.050223] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.632966] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 4d1f962d-1ca4-4101-6d25-44b4 (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.733132] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.733225] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.781339] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:09.931556] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.239175] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.239199] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264631] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264658] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264666] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264671] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264674] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264678] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264681] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264683] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264686] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264690] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264693] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264701] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264704] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264707] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264710] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264713] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264716] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264719] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264723] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.264726] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:10.322903] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.243049] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.243116] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.255049] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.265339] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"87a1d6a1-711b-4cdd-79da-b01b", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417836239953004, "version"=>"86d9f6b6-052b-4708-8c0e-c68e282575b3"} (STDOUT, API)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:16.340674] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:17.560034] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 87a1d6a1-711b-4cdd-79da-b01b (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:19.216793] Stopping app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:19.390927] Starting app with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a (STDOUT, API)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:19.555489] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 9468253e-ab3c-429c-64c4-3ea4 (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:19.896489] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:19.941545] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 9468253e-ab3c-429c-64c4-3ea4 (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:21.164071] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:23.653037] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:23.653227] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:23.702368] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:23.850768] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.156509] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.156532] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182879] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182912] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182925] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182933] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182938] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182945] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182952] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182958] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182963] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182970] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182975] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182981] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182990] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.182996] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.183002] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.183008] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.183016] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.183020] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.183025] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.183029] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:27.943#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21894#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:24.238290] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.133252] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 9468253e-ab3c-429c-64c4-3ea4 (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.133280] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 9468253e-ab3c-429c-64c4-3ea4 (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.140147] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.152332] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"9468253e-ab3c-429c-64c4-3ea4", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1754417850116383864, "version"=>"c317c5df-39a6-4c78-a44a-fe067c17f02e"} (STDOUT, API)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.220376] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 creating container for instance c5d5f0d5-f47a-4eef-6f8c-def2 (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.232999] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.553574] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:30.603033] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully created container for instance c5d5f0d5-f47a-4eef-6f8c-def2 (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:31.022290] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:31.402883] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 9468253e-ab3c-429c-64c4-3ea4 (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:33.624043] Downloaded droplet (54.8M) (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:33.624144] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:33.679331] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:33.826977] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.142135] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.142164] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169106] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169127] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169130] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169132] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169134] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169136] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169141] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169143] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169145] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169148] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169153] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169155] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169157] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169158] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169160] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169162] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169167] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169169] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169170] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.169181] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:37.888#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-21904#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:34.229502] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.154348] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance c5d5f0d5-f47a-4eef-6f8c-def2 (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.154405] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance c5d5f0d5-f47a-4eef-6f8c-def2 (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.165302] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.178587] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"c5d5f0d5-f47a-4eef-6f8c-def2", "index"=>0, "cell_id"=>"66bf8157-2666-4d64-b2ba-4e673aee0466", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1754417860138142382, "version"=>"c317c5df-39a6-4c78-a44a-fe067c17f02e"} (STDOUT, API)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.253525] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.342240] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 36bb3c0d-297f-4550-6556-ffbb (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.671511] Security group rules were updated (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:40.738138] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 36bb3c0d-297f-4550-6556-ffbb (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:41.081952] Downloading droplet... (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:41.498201] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance c5d5f0d5-f47a-4eef-6f8c-def2 (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:41.764300] Downloaded droplet (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:41.764420] Starting health monitoring of container (STDOUT, CELL)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:41.812809] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:41.962999] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.269587] > app1@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.269608] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295946] node:internal/modules/cjs/loader:1404 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295968] throw err; (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295971] ^ (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295974] Error: Cannot find module 'express' (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295976] Require stack: (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295979] - /home/vcap/app/server.js (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.295985] at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296008] at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296013] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296016] at Function._load (node:internal/modules/cjs/loader:1211:37) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296018] at TracingChannel.traceSync (node:diagnostics_channel:322:14) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296020] at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296022] at Module.require (node:internal/modules/cjs/loader:1487:12) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296024] at require (node:internal/modules/helpers:135:16) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296026] at Object.<anonymous> (/home/vcap/app/server.js:1:17) (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296028] at Module._compile (node:internal/modules/cjs/loader:1730:14) { (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296030] code: 'MODULE_NOT_FOUND', (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296032] requireStack: [ '/home/vcap/app/server.js' ] (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296034] } (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.296036] Node.js v22.16.0 (STDERR, APP/PROC/WEB)#
+#2025 08 05 18:17:47.914#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22278#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:42.354945] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2025 08 05 18:17:57.933#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22285#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:48.224414] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 36bb3c0d-297f-4550-6556-ffbb (STDOUT, CELL)#
+#2025 08 05 18:17:57.933#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22285#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:48.224447] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 36bb3c0d-297f-4550-6556-ffbb (STDOUT, CELL)#
+#2025 08 05 18:17:57.933#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22285#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:48.236409] Process has crashed with type: "web" (STDOUT, API)#
+#2025 08 05 18:17:57.933#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22285#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:48.246675] App instance exited with guid 245e041c-7c2d-43a7-a613-4c72097b8b4a payload: {"instance"=>"36bb3c0d-297f-4550-6556-ffbb", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1754417868221478626, "version"=>"c317c5df-39a6-4c78-a44a-fe067c17f02e"} (STDOUT, API)#
+#2025 08 05 18:17:57.933#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22285#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:48.309972] Exit status 137 (STDOUT, PROXY)#
+#2025 08 05 18:17:57.933#Z#DEBUG#1cbde2df-7228-11f0-a82b-eeee0a82990a.APP1#flowable-async-job-executor-thread-22285#
+[PollStartAppStatusExecution] 245e041c-7c2d-43a7-a613-4c72097b8b4a [2025-08-05T18:17:49.471670] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 36bb3c0d-297f-4550-6556-ffbb (STDOUT, CELL)#
