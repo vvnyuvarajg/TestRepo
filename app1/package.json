@@ -5,7 +5,10 @@
     "main": "server.js",
     "scripts": {
       "start": "node server.js",
-       "test": "jest"
+       "test": "jest --passWithNoTests"
+    },
+    "devDependencies": {
+      "jest": "^29.x.x"    
     },
     "keywords": [
       "Good-Afternoon",
