@@ -19,64 +19,33 @@ jobs:
         with:
           node-version: '18' # Or your project's required Node.js version
 
+      - name: Install Node.js dependencies
+        run: npm ci
+
       - name: Install Cloud MTA Build Tool (MBT)
         run: npm install -g mbt
-     
-      # ... (rest of your workflow for building and deploying)
-      # --- CRITICAL MISSING STEP: Install Node.js dependencies ---
-      # Your package.json, so npm ci needs to run there.
-      - name: Install Node.js dependencies.
-        run: npm ci
-        working-directory: ./ # <--- Add this crucial line!  
-
-      - name: Build MTA Archive
-        run: mbt build -p=cf # Builds the .mtar file at the repository root
-        # No 'working-directory' needed here as mta.yaml is at the repo root.
-
-#  push:
- #   needs: [build-and-deploy]
-  #  runs-on: self-hosted
-    
-   # steps:
-    #  - uses: actions/checkout@v3
-     # - name: Build the Docker image
-      #  run: |
-       #  sudo su 
-       #  docker pull minddocdev/node-alpine:latest
-       #  docker tag minddocdev/node-alpine:latest lalitku/hybrid-launch-artifact:${{ github.run_number }}
-       #  docker images
-    #  - name: Set up QEMU
-    #    uses: docker/setup-qemu-action@v2
-    #  - name: Set up Docker Buildx
-    #    uses: docker/setup-buildx-action@v2
-     # - name: Login to Docker Hub
-    #    uses: docker/login-action@v2
-    #    with:
-    #     username: lalitku
-    #     password: Lalit/2698
-    #  - name: Push
-    #    run: |
-     #     docker push lalitku/hybrid-launch-artifact:${{ github.run_number }}
-    
-  #ucd:
-  #  needs: push
-  #  runs-on: self-hosted
-
-   # steps:
+      
+      # --- CORRECTED SAP BTP CLI INSTALLATION ---
+      # This step uses a dedicated GitHub Action to handle the download,
+      # which resolves the EULA redirect issue you faced.
       - name: Install SAP BTP CLI
         uses: sap-cli/btp-cli-action@v1
         with:
           version: '2.90.2' # Installs the latest version
+      
       - name: Verify BTP CLI installation
         run: btp --version
-    
+      # ------------------------------------------
+
       - name: Install Cloud Foundry CLI
         run: |
-           wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo gpg --dearmor -o /usr/share/keyrings/cli.cloudfoundry.org.gpg
-           echo "deb [signed-by=/usr/share/keyrings/cli.cloudfoundry.org.gpg] https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
-           sudo apt update
-           sudo apt install cf8-cli
+          wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo gpg --dearmor -o /usr/share/keyrings/cli.cloudfoundry.org.gpg
+          echo "deb [signed-by=/usr/share/keyrings/cli.cloudfoundry.org.gpg] https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+          sudo apt update
+          sudo apt install cf8-cli
 
+      - name: Build MTA Archive
+        run: mbt build -p=cf # Builds the .mtar file at the repository root
 
       - name: Get Source Subaccount Details
         id: source_details
@@ -85,7 +54,6 @@ jobs:
           btp login --url ${{ secrets.SOURCE_API_URL }} --clientid ${{ secrets.SOURCE_BTP_CLIENT_ID }} --clientsecret ${{ secrets.SOURCE_BTP_CLIENT_SECRET }}
           
           # Fetch the details of the specific source subaccount and output as JSON
-          # REPLACE 'your-source-subaccount-id' with your actual GUID
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
           
           # Parse the JSON to get the display name and set it as an environment variable
@@ -94,7 +62,6 @@ jobs:
           # Pass the name to subsequent steps using an output variable
           echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
       
-      # Step 4: Fetch Target System Details
       - name: Get Target Subaccount Details
         id: target_details
         run: |
@@ -102,7 +69,6 @@ jobs:
           btp login --url ${{ secrets.TARGET_BTP_API_URL }} --clientid ${{ secrets.TARGET_BTP_CLIENT_ID }} --clientsecret ${{ secrets.TARGET_BTP_CLIENT_SECRET }}
           
           # Fetch the details of the specific target subaccount and output as JSON
-          # REPLACE 'your-target-subaccount-id' with your actual GUID
           TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590" --output json)
           
           # Parse the JSON to get the display name and set it as an environment variable
@@ -111,56 +77,33 @@ jobs:
           # Pass the name to subsequent steps using an output variable
           echo "target_name=$TARGET_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
           
-      # Step 5: (Optional) Your Deployment Logic
-      # --- CRITICAL DEBUGGING STEP ---
-      - name: List Plugins in CF-Community Repository to find MTA plugin name
-        run: cf repo-plugins -r CF-Community
-        # This step is designed to FAIL the workflow if 'cf' isn't found,
-        # but its primary purpose is to print the list of plugins to the logs.
-        # You will look at the output of this step.
-      # --- END CRITICAL DEBUGGING STEP ---
-      - name: Install Cloud Foundry CLI MTA Plugin (placeholder, will update after debug)
-        # You can keep 'mta' here, or comment this step out for now if you prefer,
-        # but ensure the 'List Plugins' step runs.
+      - name: Install Cloud Foundry CLI MTA Plugin
         run: cf install-plugin -r CF-Community multiapps -f
-      # This step will likely still fail initially, but we need the output from the above.
-   #   - name: Import Component Into UCD
-   #     run: |
-   #       curl --insecure --request PUT 'https://10.115.211.229/cli/component/integrate' --header 'Content-Type: application/json' --header 'Authorization: Basic a64c766f-9470-4f7d-b9fb-016157902241' --data '{"component": "Hybrid Versions","properties": {"version": ${{ github.run_number }},"description": ""}}'
-   #   - name: Wait for 30s
-   #     run: sleep 60
-   #   - name: Create Snapshot
-   #     run: |
-   #       curl --insecure --request PUT 'https://10.115.211.229/cli/snapshot/createSnapshot' --header 'Content-Type: application/json' --header 'Authorization: Basic a64c766f-9470-4f7d-b9fb-016157902241' --data '{"name": ${{ github.run_number }},"application": "Only_For_Hybrid_Applications","description": "Some snapshot","versions": [{"Hybrid Versions": "latest"}]}'
-      # --- Deployment to Development Subaccount ---
+          
       - name: Log in to Dev Subaccount
         env:
           CF_USERNAME: ${{ secrets.CF_USERNAME_DEV }}
           CF_PASSWORD: ${{ secrets.CF_PASSWORD_DEV }}
         run: |
-           cf api ${{ secrets.CF_API_DEV }} --skip-ssl-validation
-           cf auth $CF_USERNAME_DEV $CF_PASSWORD_DEV
- 
+          cf api ${{ secrets.CF_API_DEV }} --skip-ssl-validation
+          cf auth $CF_USERNAME $CF_PASSWORD
+      
       - name: Target Dev Org and Space
-        run: cf target -o "${{ secrets.CF_ORG_DEV }}" -s "${{ secrets.CF_SPACE_DEV }}" # <--- Add double quotes
- 
+        run: cf target -o "${{ secrets.CF_ORG_DEV }}" -s "${{ secrets.CF_SPACE_DEV }}"
+      
       - name: Deploy to Dev Subaccount
-        run: cf deploy mta_archives/*.mtar -f # Assuming your .mtar is in mta_archives/
- 
-      # --- Deployment to QA Subaccount (Example) ---
+        run: cf deploy mta_archives/*.mtar -f
+      
       - name: Log in to QA Subaccount
         env:
           CF_USERNAME: ${{ secrets.CF_USERNAME_QA }}
           CF_PASSWORD: ${{ secrets.CF_PASSWORD_QA }}
         run: |
           cf api ${{ secrets.CF_API_QA }} --skip-ssl-validation
-          cf auth $CF_USERNAME_QA $CF_PASSWORD_QA
- 
-      - name: Target Dev Org and Space
-        run: cf target -o "${{ secrets.CF_ORG_QA }}" -s "${{ secrets.CF_SPACE_QA }}" # <--- Add double quotes
- 
+          cf auth $CF_USERNAME $CF_PASSWORD
+      
+      - name: Target QA Org and Space
+        run: cf target -o "${{ secrets.CF_ORG_QA }}" -s "${{ secrets.CF_SPACE_QA }}"
+      
       - name: Deploy to QA Subaccount
         run: cf deploy mta_archives/*.mtar -f
- 
-      # Add more deployment steps for other subaccounts (e.g., Production)
-      # You might want to use different triggers or manual approvals for production deployments.
