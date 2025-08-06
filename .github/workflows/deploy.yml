@@ -24,22 +24,13 @@ jobs:
 
       - name: Install Cloud MTA Build Tool (MBT)
         run: npm install -g mbt
-      
       # --- CORRECTED SAP BTP CLI INSTALLATION ---
       # This step uses a dedicated GitHub Action to handle the download,
       # which resolves the EULA redirect issue you faced.
-      - name: Download getbtpcli installer
+      - name: Install SAP BTP CLI
         run: |
-          curl -sSL https://raw.githubusercontent.com/SAP-samples/sap-tech-bytes/2021-09-01-btp-cli/getbtpcli -o getbtpcli
-          chmod +x getbtpcli
-
-      - name: Install BTP CLI
-        run: |
-          ./getbtpcli --yes
-          echo "Latest version installed, linking executable"
-          mkdir btp-bin || true
-          mv btp-* btp-bin/
-          ln -s btp-bin/btp* btp
+          wget https://github.com/vvnyuvarajg/TestRepo/raw/main/bin/btp-cli-linux-amd64-2.90.2.tar.gz
+          tar -xzf btp-cli-linux-amd64-2.90.2.tar.gz
           sudo mv btp /usr/local/bin/
           btp --version
       # ------------------------------------------
