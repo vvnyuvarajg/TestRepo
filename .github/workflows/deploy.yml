@@ -28,12 +28,19 @@ jobs:
       # --- CORRECTED SAP BTP CLI INSTALLATION ---
       # This step uses a dedicated GitHub Action to handle the download,
       # which resolves the EULA redirect issue you faced.
-      - name: Download and install BTP CLI
+      - name: Download getbtpcli installer
         run: |
-          curl -Lo btp-cli.tar.gz "https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-2.54.0.tar.gz"
-          mkdir btp-cli
-          tar -xzf btp-cli.tar.gz -C btp-cli
-          sudo mv btp-cli/btp /usr/local/bin/
+          curl -sSL https://raw.githubusercontent.com/SAP-samples/sap-tech-bytes/2021-09-01-btp-cli/getbtpcli -o getbtpcli
+          chmod +x getbtpcli
+
+      - name: Install BTP CLI
+        run: |
+          ./getbtpcli --yes
+          echo "Latest version installed, linking executable"
+          mkdir btp-bin || true
+          mv btp-* btp-bin/
+          ln -s btp-bin/btp* btp
+          sudo mv btp /usr/local/bin/
           btp --version
       # ------------------------------------------
       - name: Install Cloud Foundry CLI
