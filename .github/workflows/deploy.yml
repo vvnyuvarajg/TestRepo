@@ -29,7 +29,7 @@ jobs:
       # This step uses a dedicated GitHub Action to handle the download,
       # which resolves the EULA redirect issue you faced.
       - name: Install SAP BTP CLI
-        uses: sap-cli/btp-cli-action@v1
+        uses: btp-cli/github-actions@main
         with:
           version: '2.90.2' # Installs the latest version
       
