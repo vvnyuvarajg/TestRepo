@@ -65,7 +65,7 @@ jobs:
    # steps:
       - name: Install SAP BTP CLI
         run: |
-            wget https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-1.2.0.tar.gz
+            wget https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64.tar.gz
             tar -xzf btp-cli-linux-amd64-1.2.0.tar.gz
             sudo mv btp /usr/local/bin/
             btp --version
