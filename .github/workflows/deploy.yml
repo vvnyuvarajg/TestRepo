@@ -28,9 +28,9 @@ jobs:
       # --- CORRECTED SAP BTP CLI INSTALLATION ---
       # This step uses a dedicated GitHub Action to handle the download,
       # which resolves the EULA redirect issue you faced.
-      - name: Install BTP CLI
+      - name: Download and install BTP CLI
         run: |
-          curl -Lo btp-cli.zip "https://github.com/SAP-samples/btp-cli-core/releases/latest/download/btp-cli-linux-amd64.zip"
+          curl -Lo btp-cli.zip "https://github.com/SAP-samples/btp-cli-core/releases/download/2.50.0/btp-cli-linux-amd64.zip"
           unzip btp-cli.zip -d btp-cli
           sudo mv btp-cli/btp /usr/local/bin/
           btp --version
