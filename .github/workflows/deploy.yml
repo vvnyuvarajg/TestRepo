@@ -28,18 +28,11 @@ jobs:
       # This step uses a dedicated GitHub Action to handle the download,
       # which resolves the EULA redirect issue you faced.
       - name: Checkout specific file using sparse-checkout
-        env:
-           GH_TOKEN: ${{ secrets.GIT_TOKEN }}  # Automatically provided in GitHub Actions
         run: |
-         git config --global url."https://${GH_TOKEN}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
-         git clone --depth 1 --filter=blob:none --sparse https://github.com/vvnyuvarajg/TestRepo.git
-         cd TestRepo
-         git sparse-checkout init --cone
-         git sparse-checkout set bin/btp-cli-linux-amd64-2.90.2.tar.gz
-         tar -xzf bin/btp-cli-linux-amd64-2.90.2.tar.gz
-         chmod +x btp
-         sudo mv btp /usr/local/bin/
-         btp --version
+            cp bin/btp-cli-linux-amd64-2.90.2.tar.gz .
+            tar -xzf btp-cli-linux-amd64-2.90.2.tar.gz
+            sudo mv btp /usr/local/bin/
+            btp --version
       - name: Install Cloud Foundry CLI
         run: |
           wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo gpg --dearmor -o /usr/share/keyrings/cli.cloudfoundry.org.gpg
