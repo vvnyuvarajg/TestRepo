@@ -29,6 +29,10 @@ jobs:
       # which resolves the EULA redirect issue you faced.
       - name: Install SAP BTP CLI
         run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/vvnyuvarajg/TestRepo.git
+          cd TestRepo
+          git sparse-checkout init --cone
+          git sparse-checkout set bin/btp-cli-linux-amd64-2.90.2.tar.gz
           tar -xzf btp-cli-linux-amd64-2.90.2.tar.gz
           sudo mv btp /usr/local/bin/
           btp --version
