@@ -66,8 +66,10 @@ jobs:
 
           JWT_TOKEN=$(jq -r '.token.accessToken' source-service-key.json)
 
+          IDP_URL=$(jq -r '.url' source-service-key.json)
+
           # Log in using the service key
-          btp login --jwt "$JWT_TOKEN"
+          btp login --jwt "$JWT_TOKEN" --idp "$IDP_URL"
 
           # Get source subaccount info
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
@@ -84,8 +86,10 @@ jobs:
 
          JWT_TOKEN=$(jq -r '.token.accessToken' target-service-key.json)
 
+         IDP_URL=$(jq -r '.url' target-service-key.json)
+
          # Log in using the service key
-         btp login --jwt "$JWT_TOKEN"
+         btp login --jwt "$JWT_TOKEN" --idp "$IDP_URL"
 
          # Get target subaccount info
          TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590" --output json)
