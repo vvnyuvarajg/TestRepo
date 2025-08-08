@@ -27,9 +27,24 @@ jobs:
       # --- CORRECTED SAP BTP CLI INSTALLATION ---
       # This step uses a dedicated GitHub Action to handle the download,
       # which resolves the EULA redirect issue you faced.
-      - name: Inspect archive contents
-        run: tar -tzf btp-cli-linux-amd64-2.90.2.tar.gz
+      - name: Checkout specific folder using sparse-checkout
+        uses: actions/checkout@v4
+        with:
+         sparse-checkout: |
+          bin/btp-cli-linux-amd64-2.90.2.tar.gz
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
 
+      - name: List files for debug
+        run: ls -R
+
+      - name: Copy, extract and install
+        run: |
+          cp bin/btp-cli-linux-amd64-2.90.2.tar.gz .
+          tar -xzf btp-cli-linux-amd64-2.90.2.tar.gz
+          sudo mv btp /usr/local/bin/
+          btp --version
+          
       - name: Checkout specific file using sparse-checkout
         run: |
             cp bin/btp-cli-linux-amd64-2.90.2.tar.gz .
