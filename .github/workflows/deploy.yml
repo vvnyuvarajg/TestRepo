@@ -68,7 +68,7 @@ jobs:
           --user "${{ secrets.CF_USERNAME_DEV }}" \
           --password "${{ secrets.CF_PASSWORD_DEV }}"
           # Get subaccount info
-          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
+          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --format json)
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | jq -r '.displayName')
 
           # Set output for next GitHub Actions steps
@@ -77,17 +77,14 @@ jobs:
       - name: Get Target Subaccount Details
         id: target_details
         run: |
-         # Write the service key to a file from the GitHub secret
-          echo '${{ secrets.TARGET_SERVICE_KEY_JSON }}' > target-service-key.json
-          
-          # Use jq to extract the JWT token from the service key JSON
-          JWT_TOKEN=$(jq -r '.token.accessToken' target-service-key.json)
-          
-          # Log in using the JWT token only. The BTP CLI will infer the rest of the login details.
-          btp login --jwt "$JWT_TOKEN"
-          
-          # Get target subaccount info
-          TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590" --output json)
+          # Login using username/password
+          btp login \
+          --url "https://cpcli.cf.eu10.hana.ondemand.com" \
+          --subdomain "${{ secrets.BTP_SUBDOMAIN_QA }}" \
+          --user "${{ secrets.CF_USERNAME_QA }}" \
+          --password "${{ secrets.CF_PASSWORD_QA }}"
+          # Get subaccount info
+          TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --format json)
           TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | jq -r '.displayName')
           
           # Export output
