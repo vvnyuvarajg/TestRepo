@@ -61,39 +61,40 @@ jobs:
       - name: Get Source Subaccount Details
         id: source_details
         run: |
-          # Write the service key to a file
+          # Write the service key to a file from the GitHub secret
           echo '${{ secrets.SOURCE_SERVICE_KEY_JSON }}' > source-service-key.json
-
+          
+          # Use jq to extract the JWT token from the service key JSON
           JWT_TOKEN=$(jq -r '.token.accessToken' source-service-key.json)
-
-          IDP_ORIGIN=$(jq -r '.uaa.identityzone' source-service-key.json)
-          btp login --jwt "$JWT_TOKEN" --idp "$IDP_ORIGIN"
+          
+          # Log in using the JWT token only. The BTP CLI will infer the rest of the login details.
+          btp login --jwt "$JWT_TOKEN"
+          
           # Get source subaccount info
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | jq -r '.displayName')
-
+          
           # Export output
           echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
 
       - name: Get Target Subaccount Details
         id: target_details
         run: |
-         # Write the service key to a file
-         echo '${{ secrets.TARGET_SERVICE_KEY_JSON }}' > target-service-key.json
-
-         JWT_TOKEN=$(jq -r '.token.accessToken' target-service-key.json)
-
-         IDP_ORIGIN=$(jq -r '.uaa.identityzone' source-service-key.json)
-
-         # Log in using the extracted JWT token, the identity provider URL, and the origin key
-         btp login --jwt "$JWT_TOKEN" --idp "$IDP_ORIGIN"
-
-         # Get target subaccount info
-         TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590" --output json)
-         TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | jq -r '.displayName')
-
-         # Export output
-         echo "target_name=$TARGET_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
+         # Write the service key to a file from the GitHub secret
+          echo '${{ secrets.TARGET_SERVICE_KEY_JSON }}' > target-service-key.json
+          
+          # Use jq to extract the JWT token from the service key JSON
+          JWT_TOKEN=$(jq -r '.token.accessToken' target-service-key.json)
+          
+          # Log in using the JWT token only. The BTP CLI will infer the rest of the login details.
+          btp login --jwt "$JWT_TOKEN"
+          
+          # Get target subaccount info
+          TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590" --output json)
+          TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | jq -r '.displayName')
+          
+          # Export output
+          echo "target_name=$TARGET_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
 
       - name: Install Cloud Foundry CLI MTA Plugin
         run: cf install-plugin -r CF-Community multiapps -f
