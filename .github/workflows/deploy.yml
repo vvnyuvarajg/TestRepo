@@ -66,8 +66,7 @@ jobs:
 
           JWT_TOKEN=$(jq -r '.token.accessToken' source-service-key.json)
 
-          IDP_URL=$(jq -r '.url' source-service-key.json)
-
+          IDP_URL=$(jq -r '.uaa.url' source-service-key.json)
           # Log in using the service key
           btp login --jwt "$JWT_TOKEN" --idp "$IDP_URL"
 
@@ -86,7 +85,7 @@ jobs:
 
          JWT_TOKEN=$(jq -r '.token.accessToken' target-service-key.json)
 
-         IDP_URL=$(jq -r '.url' target-service-key.json)
+         IDP_URL=$(jq -r '.uaa.url' target-service-key.json)
 
          # Log in using the service key
          btp login --jwt "$JWT_TOKEN" --idp "$IDP_URL"
