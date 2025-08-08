@@ -79,7 +79,7 @@ jobs:
           -d "grant_type=client_credentials" | jq -r '.access_token')
 
           # Authenticate with BTP CLI using the JWT
-          btp login --jwt "$ACCESS_TOKEN" --url "$BTP_URL" --subdomain "$SUBDOMAIN" --idp "$IDP_ORIGIN"
+          btp login --jwt "$ACCESS_TOKEN" --url "$BTP_URL" --subdomain "$SUBDOMAIN"
 
           # Get subaccount info
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
