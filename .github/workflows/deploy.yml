@@ -41,11 +41,11 @@ jobs:
       - name: Inspect archive contents
         run: tar -tzf bin/btp-cli-linux-amd64-2.90.2.tar.gz
 
-      - name: Copy, extract and install
+      - name: Extract and install BTP CLI
         run: |
           cp bin/btp-cli-linux-amd64-2.90.2.tar.gz .
           tar -xzf btp-cli-linux-amd64-2.90.2.tar.gz
-          sudo mv btp /usr/local/bin/
+          sudo mv linux-amd64/btp /usr/local/bin/
           btp --version
 
       - name: Install Cloud Foundry CLI
