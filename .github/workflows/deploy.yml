@@ -61,19 +61,12 @@ jobs:
       - name: Get Source Subaccount Details
         id: source_details
         run: |
-          # Save the service key to a file
-          echo '${{ secrets.SOURCE_SERVICE_KEY_JSON }}' > source-service-key.json
-
-          # Extract client ID, secret, and UAA token URL
-          CLIENT_ID=$(jq -r '.uaa.clientid' source-service-key.json)
-          CLIENT_SECRET=$(jq -r '.uaa.clientsecret' source-service-key.json)
-          UAA_URL=$(jq -r '.uaa.url' source-service-key.json)
-          
+          # Login using username/password
           btp login \
-          --url https://cpcli.cf.eu10.hana.ondemand.com \
-          --clientid "$CLIENT_ID" \
-          --clientsecret "$CLIENT_SECRET" \
-          --subdomain $(jq -r '.uaa.identityzone' source-service-key.json)
+          --url "https://cpcli.cf.eu10.hana.ondemand.com" \
+          --subdomain "${{ secrets.BTP_SUBDOMAIN_DEV }}" \
+          --user "${{ secrets.CF_USERNAME_DEV }}" \
+          --password "${{ secrets.CF_PASSWORD_DEV }}"
           # Get subaccount info
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | jq -r '.displayName')
