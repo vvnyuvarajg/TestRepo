@@ -68,19 +68,12 @@ jobs:
           CLIENT_ID=$(jq -r '.uaa.clientid' source-service-key.json)
           CLIENT_SECRET=$(jq -r '.uaa.clientsecret' source-service-key.json)
           UAA_URL=$(jq -r '.uaa.url' source-service-key.json)
-          BTP_URL="https://cpcli.cf.eu10.hana.ondemand.com"
-          SUBDOMAIN=$(jq -r '.uaa.identityzone' source-service-key.json)
-          IDP_ORIGIN=$(jq -r '.uaa.xsappname' source-service-key.json | cut -d'|' -f2)
-
-          # Get a JWT token using OAuth 2.0 client credentials flow
-          ACCESS_TOKEN=$(curl -s -X POST \
-          -u "${CLIENT_ID}:${CLIENT_SECRET}" \
-          "${UAA_URL}/oauth/token" \
-          -d "grant_type=client_credentials" | jq -r '.access_token')
-
-          # Authenticate with BTP CLI using the JWT
-          btp login --jwt "$ACCESS_TOKEN" --url "$BTP_URL" --subdomain "$SUBDOMAIN"
-
+          
+          btp login \
+          --url https://cpcli.cf.eu10.hana.ondemand.com \
+          --clientid "$CLIENT_ID" \
+          --clientsecret "$CLIENT_SECRET" \
+          --subdomain $(jq -r '.uaa.identityzone' source-service-key.json)
           # Get subaccount info
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | jq -r '.displayName')
