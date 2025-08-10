@@ -67,8 +67,10 @@ jobs:
           --subdomain "${{ secrets.BTP_SUBDOMAIN_DEV }}" \
           --user "${{ secrets.CF_USERNAME_DEV }}" \
           --password "${{ secrets.CF_PASSWORD_DEV }}"
-          # Get subaccount info
-          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
+          # Get subaccount info and filter for JSON
+          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" | grep -A 100 "{")
+
+          # Extract the display name using jq
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | jq -r '.displayName')
 
           # Set output for next GitHub Actions steps
@@ -84,7 +86,7 @@ jobs:
           --user "${{ secrets.CF_USERNAME_QA }}" \
           --password "${{ secrets.CF_PASSWORD_QA }}"
           # Get subaccount info
-          TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
+          TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590" | grep -A 100 "{")
           TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | jq -r '.displayName')
           
           # Export output
