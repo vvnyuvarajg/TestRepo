@@ -68,7 +68,7 @@ jobs:
           --user "${{ secrets.CF_USERNAME_DEV }}" \
           --password "${{ secrets.CF_PASSWORD_DEV }}"
           # Get subaccount info and filter for JSON
-          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
+          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5" --output json)
 
           # Extract the display name using jq
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | jq -r '.displayName')
