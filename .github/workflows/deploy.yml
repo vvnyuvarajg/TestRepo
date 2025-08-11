@@ -70,11 +70,16 @@ jobs:
           # Get subaccount info and filter for JSON
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
 
+          echo "🧾 Subaccount Details:"
           echo "$SUBACCOUNT_OUTPUT"
 
+          echo "🔍 Extracting Display Name...
           # Extract the display name using jq
           SOURCE_SUBACCOUNT_NAME=$(echo "$SUBACCOUNT_OUTPUT" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
 
+          echo "✅ Display Name: $SOURCE_SUBACCOUNT_NAME"
+
+          echo "🔄 Setting output for use in next steps..."
           # Set output for next GitHub Actions steps
           echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
 
