@@ -87,7 +87,7 @@ jobs:
           --password "${{ secrets.CF_PASSWORD_QA }}"
           # Get subaccount info
           TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590")
-          TARGET_SUBACCOUNT_NAME=$(echo "$OUTPUT" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g'))
+          TARGET_SUBACCOUNT_NAME=$(echo "$OUTPUT" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
           
           # Export output
           echo "target_name=$TARGET_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
