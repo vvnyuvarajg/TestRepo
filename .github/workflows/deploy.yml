@@ -70,10 +70,10 @@ jobs:
           # Get subaccount info and filter for JSON
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
 
-          echo "$SUBACCOUNT_OUTPUT_INFO"
+          echo "$SOURCE_SUBACCOUNT_INFO"
 
           # Extract the display name using jq
-          SOURCE_SUBACCOUNT_NAME=$(echo "$SUBACCOUNT_OUTPUT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
+          SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
 
           # Set output for next GitHub Actions steps
           echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
@@ -89,7 +89,10 @@ jobs:
           --password "${{ secrets.CF_PASSWORD_QA }}"
           # Get subaccount info
           TARGET_SUBACCOUNT_INFO=$(btp get accounts/subaccount "c6a3563a-88b9-412c-9f13-721fc5d89590")
-          TARGET_SUBACCOUNT_NAME=$(echo "$OUTPUT" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
+
+          echo "$TARGET_SUBACCOUNT_INFO"
+          
+          TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
           
           # Export output
           echo "target_name=$TARGET_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
