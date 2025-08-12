@@ -69,17 +69,9 @@ jobs:
           --password "${{ secrets.CF_PASSWORD_DEV }}"
           # Get subaccount info and filter for JSON
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
-          CF_ENV_INFO_INFO=$btp get accounts/environment-instance --subaccount c6a3563a-88b9-412c-9f13-721fc5d89590 --of-type cloudfoundry)
-          # cf orgs
-          # cf spaces
-          # cd quotas
+          CF_ENV_INFO=$btp get accounts/environment-instance --subaccount c6a3563a-88b9-412c-9f13-721fc5d89590 --of-type cloudfoundry)
           echo "$SOURCE_SUBACCOUNT_INFO"
           echo "Cloud Foundry Environment Info: $CF_ENV_INFO"
-
-          cf target -o 0a812254trial -s Buid Code
-          cf orgs
-          cf spaces
-          cf quotas
 
           # Extract the display name using jq
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
