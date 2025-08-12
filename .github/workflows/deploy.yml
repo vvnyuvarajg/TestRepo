@@ -73,6 +73,11 @@ jobs:
           echo "$SOURCE_SUBACCOUNT_INFO"
           echo "Cloud Foundry Environment Info: $CF_ENV_INFO"
 
+          cf target -o 0a812254trial -s Buid Code
+          cf orgs
+          cf spaces
+          cf quotas
+
           # Extract the display name using jq
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
 
