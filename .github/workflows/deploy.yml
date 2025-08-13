@@ -67,6 +67,15 @@ jobs:
           --subdomain "${{ secrets.BTP_SUBDOMAIN_DEV }}" \
           --user "${{ secrets.CF_USERNAME_DEV }}" \
           --password "${{ secrets.CF_PASSWORD_DEV }}"
+          
+          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
+
+          echo "$SOURCE_SUBACCOUNT_INFO"
+
+          SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
+
+          # Set output for next GitHub Actions steps
+          echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT          
 
       - name: Log in to Cloud Foundry
         run: |
@@ -77,17 +86,9 @@ jobs:
           -o "0a812254trial" \
           -s "dev"
 
-          # Get subaccount info and filter for JSON
-          SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
           CF_ENV_INFO=$(btp get accounts/environment-instance 4D3D0612-CC6C-41D7-B54C-66216C47E8FE --subaccount 07d04ce0-4e6e-4c34-9476-325191a3ade5)
-          echo "$SOURCE_SUBACCOUNT_INFO"
+
           echo "Cloud Foundry Environment Info: $CF_ENV_INFO
-
-          # Extract the display name using jq
-          SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
-
-          # Set output for next GitHub Actions steps
-          echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
 
       - name: Get Target Subaccount Details
         id: target_details
