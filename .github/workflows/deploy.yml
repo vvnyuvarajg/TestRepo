@@ -73,8 +73,8 @@ jobs:
           cf api https://api.cf.us10-001.hana.ondemand.com
           cf login \
           -u "${{ secrets.CF_USERNAME_DEV }}" \
-          -p "${{ secrets.CF_PASSWORD_DEV }}" 
-          -o "0a812254trial" 
+          -p "${{ secrets.CF_PASSWORD_DEV }}" \
+          -o "0a812254trial" \
           -s "dev"
 
           # Get subaccount info and filter for JSON
