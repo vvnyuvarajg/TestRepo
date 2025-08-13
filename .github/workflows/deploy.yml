@@ -73,7 +73,7 @@ jobs:
           echo "$SOURCE_SUBACCOUNT_INFO"
           echo "Cloud Foundry Environment Info: $CF_ENV_INFO"
 
-          cf login target -o "0a812254trial" -s "dev"
+          cf login -u "${{ secrets.CF_USERNAME_DEV }}" -p "${{ secrets.CF_PASSWORD_DEV }}" -o "0a812254trial" -s "dev"
           cf orgs
           cf spaces
           cf quotas
