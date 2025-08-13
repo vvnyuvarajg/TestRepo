@@ -75,7 +75,7 @@ jobs:
           -u "${{ secrets.CF_USERNAME_DEV }}" \
           -p "${{ secrets.CF_PASSWORD_DEV }}" \
           -o "0a812254trial" \
-          -s "Build Code"
+          -s "dev"
 
           # Get subaccount info and filter for JSON
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
