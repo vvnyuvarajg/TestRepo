@@ -72,23 +72,21 @@ jobs:
 
           echo "$SOURCE_SUBACCOUNT_INFO"
 
-          SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
+          SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO"| grep "display name:" | awk '{$1=""; print $0}' | sed 's/^ *//g')
 
           # Set output for next GitHub Actions steps
           echo "source_name=$SOURCE_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT          
 
-      - name: Log in to Cloud Foundry
-        run: |
+          CF_ENV_INFO=$(btp get accounts/environment-instance 4D3D0612-CC6C-41D7-B54C-66216C47E8FE --subaccount 07d04ce0-4e6e-4c34-9476-325191a3ade5)
+
+          echo "Cloud Foundry Environment Info: $CF_ENV_INFO"
+
           cf api https://api.cf.us10-001.hana.ondemand.com
           cf login \
           -u "${{ secrets.CF_USERNAME_DEV }}" \
           -p "${{ secrets.CF_PASSWORD_DEV }}" \
           -o "0a812254trial" \
           -s "dev"
-
-          CF_ENV_INFO=$(btp get accounts/environment-instance 4D3D0612-CC6C-41D7-B54C-66216C47E8FE --subaccount 07d04ce0-4e6e-4c34-9476-325191a3ade5)
-
-          echo "Cloud Foundry Environment Info: $CF_ENV_INFO
 
       - name: Get Target Subaccount Details
         id: target_details
