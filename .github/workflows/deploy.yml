@@ -102,10 +102,21 @@ jobs:
 
           echo "$TARGET_SUBACCOUNT_INFO"
           
-          TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
-          
+          TARGET_SUBACCOUNT_NAME=$(echo "$TARGET_SUBACCOUNT_INFO" | grep "display name:" | awk '{$1=""; print $0}' | sed 's/^ *//g')
+
           # Export output
           echo "target_name=$TARGET_SUBACCOUNT_NAME" >> $GITHUB_OUTPUT
+
+          CF_ENV_INFO=$(btp get accounts/environment-instance E7F131B3-CC30-481B-AC7B-1AED1BB07371 --subaccount c6a3563a-88b9-412c-9f13-721fc5d89590)
+
+          echo "Cloud Foundry Environment Info: $CF_ENV_INFO"
+
+          cf api https://api.cf.us10-001.hana.ondemand.com
+          cf login \
+          -u "${{ secrets.CF_USERNAME_QA }}" \
+          -p "${{ secrets.CF_PASSWORD_QA }}" \
+          -o "169a4c90trial" \
+          -s "dev"
 
       - name: Install Cloud Foundry CLI MTA Plugin
         run: cf install-plugin -r CF-Community multiapps -f
