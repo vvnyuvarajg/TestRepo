@@ -67,17 +67,21 @@ jobs:
           --subdomain "${{ secrets.BTP_SUBDOMAIN_DEV }}" \
           --user "${{ secrets.CF_USERNAME_DEV }}" \
           --password "${{ secrets.CF_PASSWORD_DEV }}"
+
+      - name: Log in to Cloud Foundry
+        run: |
+          cf api https://api.cf.us10-001.hana.ondemand.com
+          cf login \
+          -u "${{ secrets.CF_USERNAME_DEV }}" \
+          -p "${{ secrets.CF_PASSWORD_DEV }}" \
+          -o "0a812254trial" \
+          -s "Build Code"
+
           # Get subaccount info and filter for JSON
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
           CF_ENV_INFO=$(btp get accounts/environment-instance 4D3D0612-CC6C-41D7-B54C-66216C47E8FE --subaccount 07d04ce0-4e6e-4c34-9476-325191a3ade5)
           echo "$SOURCE_SUBACCOUNT_INFO"
-          echo "Cloud Foundry Environment Info: $CF_ENV_INFO"
-
-          cf login https://api.cf.us10-001.hana.ondemand.com
-          cf login -u "${{ secrets.CF_USERNAME_DEV }}" -p "${{ secrets.CF_PASSWORD_DEV }}" -o "0a812254trial" -s "dev"
-          cf orgs
-          cf spaces
-          cf quotas
+          echo "Cloud Foundry Environment Info: $CF_ENV_INFO
 
           # Extract the display name using jq
           SOURCE_SUBACCOUNT_NAME=$(echo "$SOURCE_SUBACCOUNT_INFO" | sed -n '3p' | awk '{$1=""; print $0}' | sed 's/^ *//g')
