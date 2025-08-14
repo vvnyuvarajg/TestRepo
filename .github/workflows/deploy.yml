@@ -64,9 +64,10 @@ jobs:
           # Login using username/password
           btp login \
           --url "https://cpcli.cf.eu10.hana.ondemand.com" \
-          --subdomain "${{ secrets.BTP_SUBDOMAIN_DEV }}" \
+          #--subdomain "${{ secrets.BTP_SUBDOMAIN_DEV }}" \
           --user "${{ secrets.CF_USERNAME_DEV }}" \
           --password "${{ secrets.CF_PASSWORD_DEV }}"
+          && btp target --global-account b341954b-b853-4249-854c-e5d960dec889 --subaccount 07d04ce0-4e6e-4c34-9476-325191a3ade5
 
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
 
