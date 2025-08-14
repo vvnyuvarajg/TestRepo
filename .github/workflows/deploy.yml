@@ -72,7 +72,9 @@ jobs:
             --url "https://cpcli.cf.eu10.hana.ondemand.com" \
             --user "${{ secrets.CF_USERNAME_DEV }}" \
             --password "${{ secrets.CF_PASSWORD_DEV }}"
-          
+
+          btp target --global-account "b341954b-b853-4249-854c-e5d960dec889"
+
           SOURCE_SUBACCOUNT_INFO=$(btp get accounts/subaccount "07d04ce0-4e6e-4c34-9476-325191a3ade5")
 
           echo "$SOURCE_SUBACCOUNT_INFO"
