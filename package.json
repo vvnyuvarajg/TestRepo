@@ -9,14 +9,14 @@
   "devDependencies": {
       "jest": "^29.7.0"
     },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vvnyuvarajg/TestRepo.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
     "dependencies": {
       "express": "^4.21.2"
-      }
+      },
+  "bugs": {
+    "url": "https://github.com/vvnyuvarajg/TestRepo/issues"
+  },
+  "homepage": "https://github.com/vvnyuvarajg/TestRepo#readme"
 }
