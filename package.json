@@ -18,9 +18,5 @@
   "license": "ISC",
     "dependencies": {
       "express": "^4.21.2"
-      },
-  "bugs": {
-    "url": "https://github.com/vvnyuvarajg/TestRepo/issues"
-  },
-  "homepage": "https://github.com/vvnyuvarajg/TestRepo#readme"
+      }
 }
