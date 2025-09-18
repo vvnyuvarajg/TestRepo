@@ -13,8 +13,7 @@ api_url = f"{SN_INSTANCE}/api/now/v2/stats"
 headers = {
   "Content-Type": "application/json"
     }
-
-  print(f"Pinging ServiceNow instance at: {api_url}")
+print(f"Pinging ServiceNow instance at: {api_url}")
 
 try:
   response = requests.get(api_url, headers=headers)
